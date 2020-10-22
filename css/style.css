@@ -1,0 +1,37 @@
+body{
+    margin: 10px 30px;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header--SignIn p{
+    margin: 0;
+    text-align: center;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.header--SignIn p:nth-child(2){
+    color: #0077c5;
+    cursor: pointer;
+}
+
+.header input{
+    background-color: #0077c5;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.header--SignIn input:hover{
+    display: none;
+}
+
