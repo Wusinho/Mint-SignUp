@@ -1,5 +1,7 @@
 body {
   margin: 10px 30px;
+  font-family: inherit;
+  background-color: #eceef1;
 }
 
 header {
@@ -35,43 +37,67 @@ header {
   display: none;
 }
 
-.title-icons {
+.Main-structure {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 0;
-  width: 235px;
+  justify-content: center;
+}
+
+.main {
+  width: 380px;
 }
 
 .title {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.main {
-  border: 1px solid black;
+.title__header {
+  width: 200px;
+  opacity: 0.7;
+  position: absolute;
+}
+
+.title--icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
   width: 300px;
-  display: flex;
-  justify-content: center;
+  padding-top: 100px;
 }
-
-.title {
-  display: flex;
-  justify-content: center;
+.title--icons p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 18px;
+  color: #8c8d92;
 }
 
 .title h2 {
   text-align: center;
 }
 
-.blue-icon,
-.green-icon,
-.red-icon {
-  width: 20px;
+.blue__icon,
+.green__icon,
+.red__icon {
+  width: 24px;
 }
 
-.title-header {
+.body--form {
+  border: 1px solid #c7c7c7;
+  background-color: #ffffff;
+}
+
+.body--header p,
+.body--header h3 {
+  font-family: "Commissioner", sans-serif;
+  text-align: center;
+}
+.body--header a {
+  text-decoration: none;
+  color: #4b6fbb;
+  font-weight: 400;
+}
+.body--header p {
   margin: 0;
-  padding: 0;
+  font-size: 14px;
 }
