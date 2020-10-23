@@ -14,16 +14,16 @@
 
 <body>
     <header class="header">
-        <article class="header--SignIn">
+        <div class="header--SignIn">
             <p>Already have an Intuit account?</p>
-            <p>I forgoy my Used ID or Password</p>
-        </article>
+            <p class="header--SignIn__p2">I forgoy my Used ID or Password</p>
+        </div>
         <input type="submit" value="&#128274; Sign In">
 
     </header>
     <div class="Main-structure">
         <main class="main">
-            <section class="title">
+            <div class="title">
                 <svg class="title__header" id="Artwork" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 253.95 124.64">
                     <defs>
                         <style>
@@ -66,9 +66,10 @@
                             fill="#fff" /></svg>
                     <p>turbotax</p>
                 </figure>
-            </section>
+            </div>
 
-            <section class="body--form">
+            <aside class="body--form">
+
                 <div class="body--container">
                     <article class="body--header">
                         <h3>Create an Intuit account</h3>
@@ -81,7 +82,7 @@
                         Email address
                         <input id="email" onclick="myFunction()" class="email" type="email" name="email" required>
                     </label>
-                    <label>
+                    <label class="information--label__02">
                         Phone (recommended)
                         <input class="cell" type="tel" name="phone-number" required>
                         <span>Standard call, messaging or data rates may apply.</span>
@@ -99,23 +100,23 @@
                     </label>
                 </form>
 
-                <article class="privacy">
+                <div class="privacy">
                     <p> <i> By clicking Create account, you agree to our<a href="">Terms</a> and have read and
                             acknowledge our <a href="">Privacy Statement.</a></i>
                     </p>
-                </article>
+                </div>
                 <footer>
                     <p> Invisible reCAPTCHA by Google <a href="">Privacy Policy</a> and <a href="">Terms of
                             Use.</a> </p>
 
                 </footer>
-            </section>
+            </aside>
         </main>
 
 
 
     </div>
-    <section class="footer">
+    <aside class="footer">
         <span>Legal</span>
         <span>Privacy</span>
         <span>Security</span>
@@ -123,8 +124,9 @@
             © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
             registered trademarks of Intuit Inc.
             Terms and conditions, features, support, pricing, and service options subject to change without notice.
+
         </footer>
-    </section>
+    </aside>
 
     <script src="./js/script.js"></script>
 </body>

@@ -17,7 +17,19 @@ header {
   font-size: 14px;
 }
 
-.header--SignIn p:nth-child(2) {
+.title--icons p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 18px;
+  color: #8c8d92;
+}
+
+.body--header p,
+.body--header h3 {
+  font-family: "Commissioner", sans-serif;
+  text-align: center;
+}
+
+.header--SignIn__p2 {
   color: #0077c5;
   cursor: pointer;
 }
@@ -31,10 +43,6 @@ header {
   border: none;
   border: 1px solid black;
   cursor: pointer;
-}
-
-.header--SignIn input:hover {
-  display: none;
 }
 
 .Main-structure {
@@ -66,11 +74,6 @@ header {
   width: 300px;
   padding-top: 100px;
 }
-.title--icons p {
-  font-family: "Oxygen", sans-serif;
-  font-size: 18px;
-  color: #8c8d92;
-}
 
 .title h2 {
   text-align: center;
@@ -84,19 +87,15 @@ header {
 
 .body--form {
   border: 1px solid #c7c7c7;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
-.body--header p,
-.body--header h3 {
-  font-family: "Commissioner", sans-serif;
-  text-align: center;
-}
 a {
   text-decoration: none;
   color: #4b6fbb;
   font-weight: 400;
 }
+
 .body--header p {
   margin: 0;
   font-size: 14px;
@@ -111,6 +110,7 @@ a {
   flex-direction: column;
   font-family: "Commissioner", sans-serif;
   font-size: 14px;
+  margin-bottom: 20px;
 }
 
 .information input {
@@ -120,15 +120,9 @@ a {
   padding: 7px 7px;
   outline: none;
 }
-.information label {
-  margin-bottom: 20px;
-}
 
-.information label:nth-child(2) input {
+.information--label__02 {
   margin-bottom: 0;
-}
-
-.information label:nth-child(3) {
 }
 
 .information span {
@@ -142,7 +136,7 @@ a {
   padding: 13px 0;
   border-radius: 5px;
   font-size: 16px;
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
   border: 1px solid #0077c5;
 }
 
@@ -154,6 +148,7 @@ a {
 .body--form footer {
   background-color: #eceef1;
 }
+
 .body--form footer p {
   margin: 0;
   padding: 20px 40px;
@@ -170,18 +165,16 @@ a {
   font-size: 12px;
   font-family: "Commissioner", sans-serif;
 }
+
 .footer span {
   padding: 5px;
 }
+
 .footer--register {
   padding: 10px 0;
 }
 
-.hello {
-  display: none;
-}
-
 input:active,
 input:focus {
-  box-shadow: 0px 0px 2px 1px rgba(0, 119, 197, 1);
+  box-shadow: 0 0 2px 1px rgba(0, 119, 197, 1);
 }
