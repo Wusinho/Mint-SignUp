@@ -1,0 +1,197 @@
+body {
+  margin: 10px 30px;
+  font-family: sans-serif;
+  background-color: #eceef1;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header--SignIn p {
+  margin: 0;
+  text-align: center;
+  padding-right: 5px;
+  font-size: 14px;
+}
+
+.submit--container i {
+  position: absolute;
+  top: 20px;
+  padding-left: 15px;
+  color: white;
+}
+
+.title--icons p {
+  font-family: "Oxygen", sans-serif;
+  font-size: 18px;
+  color: #8c8d92;
+}
+
+.body--header p,
+.body--header h3 {
+  font-family: "Commissioner", sans-serif;
+  text-align: center;
+}
+
+.header--SignIn__p2 {
+  color: #0077c5;
+  cursor: pointer;
+}
+
+.header input {
+  background-color: #0077c5;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 15px 10px 35px;
+  outline: none;
+  border: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.Main-structure {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 380px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title__header {
+  width: 200px;
+  opacity: 0.7;
+  position: absolute;
+}
+
+.title--icons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  width: 300px;
+  padding-top: 100px;
+}
+
+.title h2 {
+  text-align: center;
+}
+
+.blue__icon,
+.green__icon,
+.red__icon {
+  width: 24px;
+}
+
+.body--form {
+  border: 1px solid #c7c7c7;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #4b6fbb;
+  font-weight: 400;
+}
+
+.body--header p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.information {
+  padding: 15px 25px;
+}
+
+.information label {
+  display: flex;
+  flex-direction: column;
+  font-family: "Commissioner", sans-serif;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.information input {
+  margin: 10px 0 0 0;
+  border: 1px solid #c1c5c8;
+  border-radius: 2px;
+  padding: 7px 7px;
+  outline: none;
+}
+
+.information--label__02 {
+  margin-bottom: 0;
+}
+
+.information span {
+  font-size: 10px;
+}
+
+.input__button input {
+  background-color: #0077c5;
+  color: white;
+  padding: 13px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
+  border: 1px solid #0077c5;
+  cursor: pointer;
+}
+
+.input__button {
+  position: relative;
+}
+
+.lock {
+  position: absolute;
+  top: 26px;
+  padding-left: 90px;
+  color: white;
+}
+
+.privacy {
+  padding: 0 40px;
+  text-align: center;
+}
+
+.body--form footer {
+  background-color: #eceef1;
+}
+
+.body--form footer p {
+  margin: 0;
+  padding: 20px 40px;
+  font-size: 10px;
+  color: #757575;
+}
+
+.footer {
+  padding-top: 20px;
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Commissioner", sans-serif;
+}
+
+.footer span {
+  padding: 5px;
+}
+
+.footer--register {
+  padding: 10px 0;
+}
+
+input:active,
+input:focus {
+  box-shadow: 0 0 2px 1px rgba(0, 119, 197, 1);
+}
