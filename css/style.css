@@ -146,11 +146,9 @@ a {
   border: 1px solid #0077c5;
 }
 
-.body--form article {
+.privacy {
+  padding: 0 40px;
   text-align: center;
-  font-family: "Commissioner", sans-serif;
-  font-size: 12px;
-  padding: 0 60px;
 }
 
 .body--form footer {
@@ -177,4 +175,13 @@ a {
 }
 .footer--register {
   padding: 10px 0;
+}
+
+.hello {
+  display: none;
+}
+
+input:active,
+input:focus {
+  box-shadow: 0px 0px 2px 1px rgba(0, 119, 197, 1);
 }
