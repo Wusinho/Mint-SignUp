@@ -92,7 +92,7 @@ header {
   font-family: "Commissioner", sans-serif;
   text-align: center;
 }
-.body--header a {
+a {
   text-decoration: none;
   color: #4b6fbb;
   font-weight: 400;
@@ -100,4 +100,81 @@ header {
 .body--header p {
   margin: 0;
   font-size: 14px;
+}
+
+.information {
+  padding: 15px 25px;
+}
+
+.information label {
+  display: flex;
+  flex-direction: column;
+  font-family: "Commissioner", sans-serif;
+  font-size: 14px;
+}
+
+.information input {
+  margin: 10px 0 0 0;
+  border: 1px solid #c1c5c8;
+  border-radius: 2px;
+  padding: 7px 7px;
+  outline: none;
+}
+.information label {
+  margin-bottom: 20px;
+}
+
+.information label:nth-child(2) input {
+  margin-bottom: 0;
+}
+
+.information label:nth-child(3) {
+}
+
+.information span {
+  font-size: 10px;
+}
+
+.input__button input {
+  background-color: #0077c5;
+  font-family: "Commissioner", sans-serif;
+  color: white;
+  padding: 13px 0;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.75);
+  border: 1px solid #0077c5;
+}
+
+.body--form article {
+  text-align: center;
+  font-family: "Commissioner", sans-serif;
+  font-size: 12px;
+  padding: 0 60px;
+}
+
+.body--form footer {
+  background-color: #eceef1;
+}
+.body--form footer p {
+  margin: 0;
+  padding: 20px 40px;
+  font-size: 10px;
+  color: #757575;
+  font-family: "Commissioner", sans-serif;
+}
+
+.footer {
+  padding-top: 20px;
+  width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  font-family: "Commissioner", sans-serif;
+}
+.footer span {
+  padding: 5px;
+}
+.footer--register {
+  padding: 10px 0;
 }
