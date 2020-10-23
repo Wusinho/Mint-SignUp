@@ -1,6 +1,6 @@
 body {
   margin: 10px 30px;
-  font-family: inherit;
+  font-family: sans-serif;
   background-color: #eceef1;
 }
 
@@ -15,6 +15,13 @@ header {
   text-align: center;
   padding-right: 5px;
   font-size: 14px;
+}
+
+.submit--container i {
+  position: absolute;
+  top: 20px;
+  padding-left: 15px;
+  color: white;
 }
 
 .title--icons p {
@@ -38,7 +45,7 @@ header {
   background-color: #0077c5;
   color: white;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 10px 15px 10px 35px;
   outline: none;
   border: none;
   border: 1px solid black;
@@ -131,13 +138,23 @@ a {
 
 .input__button input {
   background-color: #0077c5;
-  font-family: "Commissioner", sans-serif;
   color: white;
   padding: 13px 0;
   border-radius: 5px;
   font-size: 16px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.75);
   border: 1px solid #0077c5;
+  cursor: pointer;
+}
+.input__button {
+  position: relative;
+}
+
+.lock {
+  position: absolute;
+  top: 26px;
+  padding-left: 90px;
+  color: white;
 }
 
 .privacy {
@@ -154,7 +171,6 @@ a {
   padding: 20px 40px;
   font-size: 10px;
   color: #757575;
-  font-family: "Commissioner", sans-serif;
 }
 
 .footer {

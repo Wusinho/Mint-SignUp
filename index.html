@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300&family=Oxygen&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e51a507f46.js" crossorigin="anonymous"></script>
 
 
 </head>
@@ -18,8 +19,10 @@
             <p>Already have an Intuit account?</p>
             <p class="header--SignIn__p2">I forgoy my Used ID or Password</p>
         </div>
-        <input type="submit" value="&#128274; Sign In">
-
+        <div class="submit--container">
+            <i class="fas fa-lock"></i>
+            <input type="submit" value="Sign In">
+        </div>
     </header>
     <div class="Main-structure">
         <main class="main">
@@ -96,7 +99,8 @@
                         <input type="password" name="password" required>
                     </label>
                     <label class="input__button">
-                        <input type="submit" value="&#128274; Create Account">
+                        <i class="fas fa-lock lock"></i>
+                        <input type="submit" value="Create Account">
                     </label>
                 </form>
 
@@ -120,13 +124,14 @@
         <span>Legal</span>
         <span>Privacy</span>
         <span>Security</span>
-        <footer class="footer--register">
+        <div class="footer--register">
             © 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are
             registered trademarks of Intuit Inc.
             Terms and conditions, features, support, pricing, and service options subject to change without notice.
 
-        </footer>
+        </div>
     </aside>
+
 
     <script src="./js/script.js"></script>
 </body>
