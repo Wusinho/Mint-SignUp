@@ -1,90 +1,77 @@
-body{
-    margin: 10px 30px;
-
+body {
+  margin: 10px 30px;
 }
 
-header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.header--SignIn p{
-    margin: 0;
-    text-align: center;
-    padding-right: 5px;
-    font-size: 14px;
-}
-
-.header--SignIn p:nth-child(2){
-    color: #0077c5;
-    cursor: pointer;
-}
-
-.header input{
-    background-color: #0077c5;
-    color: white;
-    border-radius: 5px;
-    padding: 10px 20px;
-    outline: none;
-    border: none;
-    border: 1px solid black;
-    cursor: pointer;
-}
-
-.header--SignIn input:hover{
-    display: none;
-}
-
-.secondIcon {
-  width: 20px;
-  padding-left: 3px;
-  background-color: #2da01d;
-  color: white;
-  border: 1px solid #2da01d;
-  border-radius: 50%;
-}
-.fa-tint {
-  width: 23px;
-  height: 20px;
-  background-color: #00a6a4;
-  color: white;
-  border: 1px solid #00a6a4;
-  border-radius: 50%;
-  text-align: center;
+.header--SignIn p {
   margin: 0;
-  padding: 0 0;
-}
-.fa-check {
-  width: 23px;
-  height: 20px;
-  background-color: #d52c1f;
-  color: white;
-  border: 1px solid #d52c1f;
-  border-radius: 50%;
   text-align: center;
-  margin: 0;
-  padding: 0 0;
+  padding-right: 5px;
+  font-size: 14px;
+}
+
+.header--SignIn p:nth-child(2) {
+  color: #0077c5;
+  cursor: pointer;
+}
+
+.header input {
+  background-color: #0077c5;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.header--SignIn input:hover {
+  display: none;
 }
 
 .title-icons {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin: 0;
+  width: 235px;
 }
 
 .title {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
+
 .main {
   border: 1px solid black;
   width: 300px;
   display: flex;
   justify-content: center;
 }
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
 .title h2 {
   text-align: center;
+}
+
+.blue-icon,
+.green-icon,
+.red-icon {
+  width: 20px;
+}
+
+.title-header {
+  margin: 0;
+  padding: 0;
 }
