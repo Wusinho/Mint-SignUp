@@ -5,8 +5,8 @@
 Mint-SignUp Page Clone
 
 ![screenshot](./images/Screenshot.png)
-
-Embedding Images and Video Project
+HTML Forms
+This project consists of building an HTML document that matches the appearance of mint.com signup page
 
 ## Built With
 
